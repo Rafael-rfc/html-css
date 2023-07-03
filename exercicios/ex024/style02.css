@@ -15,14 +15,9 @@ th, td{
     padding: 10px;
 }
 
-.destaque {
-    background-color: greenyellow;
+tr:nth-child(even){
+    background-color: lightgray;
 }
 
-col.cnome{
-    background-color: greenyellow;
-}
-
-col.cgrupo{
-    background-color: red;
-}
+div#container{
+overflow: auto;}
